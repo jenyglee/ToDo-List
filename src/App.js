@@ -26,7 +26,7 @@ export default function App() {
             <Container>
                 <StatusBar barStyle="light-content" />
                 <Title>ToDo</Title>
-                <Input />
+                <Input placeholder='+ Add a Task' />
             </Container>
         </ThemeProvider>
     );
