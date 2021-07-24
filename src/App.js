@@ -2,7 +2,7 @@ import { StatusBar, View, Text } from "react-native";
 import React from "react";
 import styled, {ThemeProvider} from "styled-components/native";
 import {theme} from './theme'
-
+import Input from './components/Input'
 
 const Container = styled.SafeAreaView`
     flex : 1;
@@ -26,6 +26,7 @@ export default function App() {
             <Container>
                 <StatusBar barStyle="light-content" />
                 <Title>ToDo</Title>
+                <Input />
             </Container>
         </ThemeProvider>
     );
