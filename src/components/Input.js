@@ -16,7 +16,7 @@ color:${({theme})=>theme.main};
 
 const Input = ()=>{
     const width = Dimensions.get('window').width;
-    return <StyledInput width={width} />
+    return <StyledInput width={width} placeholder={placeholder} />
 }
 
 export default Input;
